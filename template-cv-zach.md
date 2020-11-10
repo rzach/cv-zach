@@ -57,6 +57,13 @@ $appointment.items.item$. $appointment.items.begindate$-$if(appointment.items.en
 $endfor$
 $endfor$
 
+## Awards
+
+$for(award)$
+$award.title$, $award.agency$, $award.date$.
+
+$endfor$
+
 ## Editor
 
 $for(editor)$
@@ -64,10 +71,12 @@ _[$editor.item$]($editor.link$)_, $editor.role$. $editor.begindate$-$if(editor.e
 
 $endfor$
 
-## Courses Taught
+## Teaching and Supervision
+
+### Courses Taught
 
 $for(teaching)$
-### $teaching.school$
+#### $teaching.school$
 
 $for(teaching.courses)$
 $teaching.courses.title$ ($teaching.courses.number$). $teaching.courses.date$. ($teaching.courses.type$)
@@ -75,14 +84,22 @@ $teaching.courses.title$ ($teaching.courses.number$). $teaching.courses.date$. (
 $endfor$
 $endfor$
 
-## Students
+### Supervision
 
 $for(students)$
-### $students.type$
+#### $students.type$
 $for(students.students)$
 $if(students.students.webpage)$[$students.students.name$]($students.students.webpage$)$else$$students.students.name$$endif$ ($students.students.degree$), "$if(students.students.link)$[$students.students.thesis$]($students.students.link$)$else$$students.students.thesis$$endif$," $students.students.date$
 
 $endfor$
+$endfor$
+
+
+### Teaching Awards
+
+$for(teaching-award)$
+$teaching-award.title$, $teaching-award.agency$, $teaching-award.date$.
+
 $endfor$
 
 ## Grants

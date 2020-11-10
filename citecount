@@ -6,7 +6,7 @@
 
 citations="0"
 for cid in $@ ; do
-    cites=`scholar.py/scholar.py -C $cid | grep '^  *Citations' | sed 's/^[^0-9]*//' | head -1`
+    cites=`python3 scholar.py/scholar.py -C $cid | grep '^  *Citations' | sed 's/^[^0-9]*//' | head -1`
     if [ "$cites" = "" ]
     then
 	echo "citecount: No citations for $cid" 1>&2

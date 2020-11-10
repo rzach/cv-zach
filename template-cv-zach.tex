@@ -42,6 +42,8 @@ $endfor$
 
 \maketitle
 
+\raggedright
+
 \section{Education}
 
 $for(education)$
@@ -67,6 +69,12 @@ $for(appointment.items)$
 $endfor$
 $endfor$
 
+\section{Awards}
+
+$for(award)$
+\ind $award.title$, $award.agency$, $award.date$.
+
+$endfor$
 
 \section{Editor}
 
@@ -79,7 +87,7 @@ $endfor$
   \subsection{#1}}
 
 \begin{publications}
-  \printbibrz{textbook}{Textbooks}
+  \printbibrz{textbook}{Books}
   \printbibrz{edition}{Editions}
   \printbibrz{article}{Journal Articles}
   \printbibrz{chapter}{Book Chapters}
@@ -143,7 +151,7 @@ $if(presentation.local)$
 $endif$
 $endfor$
 
-\section{Teaching}
+\section{Teaching and Supervision}
 
 \subsection{Classes Taught}
 
@@ -155,7 +163,7 @@ $for(teaching.courses)$
 $endfor$
 $endfor$
 
-\section{Students}
+\subsection{Students}
 
 $for(students)$
 \subsection{$students.type$}
@@ -163,6 +171,13 @@ $for(students.students)$
 \ind $if(students.students.webpage)$\href{$students.students.webpage$}{$students.students.name$}$else$$students.students.name$$endif$ ($students.students.degree$), ``$if(students.students.link)$\href{$students.students.link$}{$students.students.thesis$}$else$$students.students.thesis$$endif$,'' $students.students.date$
 
 $endfor$
+$endfor$
+
+\subsection{Teaching Awards}
+
+$for(teaching-award)$
+\ind $teaching-award.title$, $teaching-award.agency$, $teaching-award.date$.
+
 $endfor$
 
 \section{Grants}

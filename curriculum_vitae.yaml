@@ -78,7 +78,7 @@ editor:
     item: Ergo
     link: https://www.ergophiljournal.org/
     role: Area Editor
-    begindate: 2010-00-00
+    begindate: 2019-00-00
   -
     item: Philosophia Mathematica
     link: https://academic.oup.com/philmat
@@ -164,7 +164,7 @@ competencies:
       - Metaphysics, Philosophy of Language, Philosophy of Science
 
 
-awards:
+award:
 
 -
   title: Annual Fellowship
@@ -923,6 +923,26 @@ teaching:
 -
   school: University of Calgary
   courses:
+  - 
+    title: Logic I
+    number: Phil 279
+    date: Fall 2001, Winter 2002, Fall 2002, Winter 2004, Winter 2006, Winter 2009, Fall 2009, Fall 2010, Fall 2011, Fall 2012, Fall, 2013, Fall 2019, Winter 2020, Fall 2020
+    type: undergrad
+  -
+    title: Philosophy of Logic
+    number: Phil 473/671
+    date: Fall 2020
+    type: grad
+  -
+    title: Philosophy of Mathematics
+    number: Phil 567/667
+    date: Winter 2005, Winter 2020
+    type: grad
+  -
+    title: Logic II
+    number: Phil 379
+    date: Winter 2003, Fall 2003, Winter 2016, Fall 2016, Fall 2019, Winter 2020
+    type: undergrad
   -
     title: "Logic III: Gödel's Incompleteness Theorems"
     number: Phil 479/679.01
@@ -943,16 +963,6 @@ teaching:
     number: Phil 603
     date: Fall 2015, Fall 2016, Fall 2017
     type: grad
-  -
-    title: Logic II
-    number: Phil 379
-    date: Winter 2003, Fall 2003, Winter 2016, Fall 2016, Fall 2019
-    type: undergrad
-  -
-    title: Logic I
-    number: Phil 279
-    date: Fall 2001, Winter 2002, Fall 2002, Winter 2004, Winter 2006, Winter 2009, Fall 2009, Fall 2010, Fall 2011, Fall 2012, Fall 2013, Fall 2019
-    type: undergrad
   -
     title: "Advanced Topics in Logic: Proof Theory"
     number: Phil 579.3/679.4
@@ -998,11 +1008,7 @@ teaching:
     number: Phil 409.02
     date: Winter 2006
     type: undergrad
-  -
-    title: Philosophy of Mathematics
-    number: Phil 567/667
-    date: Winter 2005
-    type: grad
+
 -
   school: McGill University
   courses:
@@ -1173,8 +1179,14 @@ students:
   type: "External Examiner"
   students:
     -
+      name: Nicola Bonatti
+      degree: "MPhil in Philosophy, University of St. Andrews"
+      thesis: "The Meaning of Quantifiers and the Epsilon Calculus"
+      supervisor: Francesco Berto
+      date: 2020
+    -
       name: Long Chen
-      degree: PhD in Philosophy, King's College London
+      degree: "PhD in Philosophy, King's College London"
       thesis: "Interpreting Gödel: Historical and Philosophical Perspectives"
       supervisor: Michael Beaney
       date: 2017
@@ -1193,6 +1205,17 @@ students:
 -
   type: Committee Member
   students:
+    -
+      name: Zain Rizvi
+      degree: "PhD in Computer Science, supervisor: Philip Fong"
+      thesis: "The SUDO Framework for Data Organization And Efficient Query Authorization For NoSQL Databases"
+      date: 2020
+    -
+      name: Brent Odland
+      degree: MA
+      thesis: "Peirce's Triadic Logic: Continuity, Modality, and L"
+      link: http://hdl.handle.net/1880/112238
+      date: 2020
     -
       name: Prashant Kumar
       degree: "MSc in Computer Science, supervisor: Robin Cockett"
@@ -1259,10 +1282,26 @@ students:
       thesis: The Role of Evolution in Behavior
       date: 2003 
 
+teaching-award:
+-
+  title: Nominated for Teaching Excellence Award
+  agency: "Student's Union, University of Calgary"
+  date: 2020
+-
+  title: Great Supervisor Award
+  agency: Faculty of Graduate Studies, University of Calgary
+  date: 2019
+
 service:
 -
   type: "Department of Philosophy, University of Calgary"
   gigs:
+    -
+      item: Committee on Diversity and Climate, Chair
+      date: 2020-
+    -
+      item: Ad-hoc Committee on Online Learning, Member
+      date: 2020-
     -
       item: Undergraduate Program Committee, Member
       date: 2019-
@@ -1327,6 +1366,9 @@ service:
   type: "University of Calgary"
   gigs:
     -
+      item: Calgary Institute for the Humanities, Executive Council
+      date: 2016--
+    -
       item: Pacific Institute for the Mathematical Sciences, Calgary Site Steering Committee
       date: 2016--
     -
@@ -1340,9 +1382,6 @@ service:
       date: 2001--
     -
       item: Faculty of Graduate Studies, Awards Oversight Committee
-      date: 2016--2018
-    -
-      item: Calgary Institute for the Humanities, Executive Council
       date: 2016--2018
     -
       item: Faculty of Arts, Graduate Academic Review Committee, Vice Chair
@@ -1406,7 +1445,7 @@ service:
   gigs:
     -
       item: Philosophy of Mathematics Association, President
-      date: 2015--2016
+      date: 2019--
     -
       item: Canadian Society for History and Philosophy of Mathematics, Council Member
       date: 2018--
@@ -1549,7 +1588,13 @@ service:
       item: "Granting Agencies: Austrian Science Fund, Fonds Québéquois de Recherche sur la Société et Culture, Natural Sciences and Engineering Research Council of Canada NSERC, Research Foundation Flanders, Social Sciences and Humanities Research Council of Canada SSHRC, Deutsche Forschungsgemeinschaft, Canada Council for the Arts, Israel Science Foundation, Nederlands Organization for Scientific Research, Swiss National Science Foundation"
 
 grants:
-- type: Teaching Activity Grant, Faculty of Arts, University of Calgary
+-
+  type: Insight Development Grant, Social Sciences and Humanities Research Council of Canada (SSHRC)
+  title: Toward a Philosophy of Programming Languages
+  date: 2020--2022
+  value: CAD 45,378
+- 
+  type: Teaching Activity Grant, Faculty of Arts, University of Calgary
   title: "How Do We Know?"
   date: 2018
   value: CAD 1,000
@@ -1672,5 +1717,4 @@ grants:
   type: Research Excellence Envelope Grant, University of Calgary
   date: 2001--2002
   value: CAD 15,000
-
 ...
