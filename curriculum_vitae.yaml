@@ -18,7 +18,7 @@ bibliography: zach.bib
 
 appointment:
   -
-    place: University of Calgary, Department of Philosophy
+    place: 'University of Calgary, Department of Philosophy'
     items:
       - 
         item: Professor
@@ -32,21 +32,22 @@ appointment:
         begindate: 2001-07-01
         enddate: 2004-06-30
   - 
-    place: McGill University, Department of Philosophy
+    place: 'McGill University, Department of Philosophy'
     items:
       -
         item: Visiting Professor
         begindate: 2014-10-01
         enddate: 2015-06-30
   -
-    place: University of California, Irvine, Department of Logic and Philosophy of Science
+    place: "University of California, Irvine,
+      Department of Logic and Philosophy of Science"
     items:
       -
         item: Visiting Associate Researcher
         begindate: 2004-10-01
         enddate: 2004-12-31
   -
-    place: Stanford University, Department of Philosophy
+    place: 'Stanford University, Department of Philosophy'
     items:
       -
         item: Lecturer
@@ -54,7 +55,7 @@ appointment:
         enddate: 2001-06-30
 
   -
-    place: University of California, Berkeley, Department of Philosophy
+    place: 'University of California, Berkeley, Department of Philosophy'
     items:
       -
         item: Graduate Student Instructor
@@ -62,7 +63,7 @@ appointment:
         enddate: 2000-12-31
 
   -
-    place: Technische Universität Wien, Department of Computer Science
+    place: 'Technische Universität Wien, Department of Computer Science'
     items:
       -
         item: Erasmus Mundus Scholar
@@ -73,22 +74,55 @@ appointment:
         begindate: 1995-03-01
         enddate: 2000-06-30
 
+shortappointment:
+  -
+    place: University of Calgary
+    item: Professor
+    begindate: 2009-07-01
+  - 
+    place: McGill University
+    item: Visiting Professor
+    begindate: 2014-10-01
+    enddate: 2015-06-30
+  -
+    place: University of Calgary
+    item: Associate Professor
+    begindate: 2004-07-01
+    enddate: 2009-06-30
+  -
+    place: "University of California, Irvine"
+    item: Visiting Associate Researcher
+    begindate: 2004-10-01
+    enddate: 2004-12-31
+  -
+    place: University of Calgary
+    item: Assistant Professor
+    begindate: 2001-07-01
+    enddate: 2004-06-30
+  -
+    place: Stanford University
+    item: Lecturer
+    begindate: 2001-01-01
+    enddate: 2001-06-30
+  -
+    place: Technische Universität Wien
+    item: Lecturer
+    begindate: 1995-03-01
+    enddate: 2009-06-30
+
 editor:
   -
     item: Ergo
     link: https://www.ergophiljournal.org/
     role: Area Editor
     begindate: 2019-00-00
+    short: true
   -
     item: Philosophia Mathematica
     link: https://academic.oup.com/philmat
     role: Editor
     begindate: 2019-00-00
-  -
-    item: Journal for the History of Analytic Philosophy
-    link: https://jhaponline.org/
-    role: Founding Editor
-    begindate: 2010-00-00
+    short: true
   -
     item: Open Logic Project
     link: http://openlogicproject.org/
@@ -104,11 +138,13 @@ editor:
     link: http://www.studialogica.org/
     role: Associate Editor
     begindate: 2006-00-00
+    short: true
   -
     item: Stanford Encyclopedia of Philosophy
     link: https://plato.stanford.edu/
     role: Subject Editor, History of Logic
     begindate: 2005-00-00
+    short: true
   -
     item: Hilbert-Bernays Project
     link: http://wirth.bplaced.net/p/hilbertbernays/
@@ -119,6 +155,13 @@ editor:
     link: http://www.phil.cmu.edu/projects/bernays/
     role: Editorial Board Member
     begindate: 2000-00-00
+  -
+    item: Journal for the History of Analytic Philosophy
+    link: https://jhaponline.org/
+    role: Founding Editor
+    begindate: 2010-00-00
+    enddate: 2020-00-00
+    short: true
   -
     item: The Review of Symbolic Logic
     link: https://www.cambridge.org/core/journals/review-of-symbolic-logic
@@ -132,7 +175,10 @@ education:
     degree: PhD
     field: Logic and the Methodology of Science
     date: 2001-05-01
-    info: "Thesis: \"Hilberts Finitism: Historical, Philosophical, and Metamathematical Perspectives.\" Supervisors: Paolo Mancosu, Jack H. Silver"
+    info: |
+      "Thesis: Hilberts Finitism: Historical, Philosophical, and
+      Metamathematical Perspectives. Supervisors: Paolo Mancosu, Jack H. Silver"
+    short: yes
   -
     school: University of California, Berkeley
     degree: MA
@@ -148,6 +194,7 @@ education:
     degree: Diplom-Ingenieur
     field: Computational Logic
     date: 1993-11-01
+    short: yes
 
 
 competencies: 
@@ -165,7 +212,10 @@ competencies:
 
 
 award:
-
+-
+  title: Bulletin of Symbolic Logic 25th Anniversary Prize
+  agency: Association for Symbolic Logic
+  date: 2021
 -
   title: Annual Fellowship
   agency: Calgary Institute for the Humanities
@@ -196,6 +246,42 @@ award:
 
 presentation:
 -
+  title: Prefixed Tableaux for Simply Dependent Multimodal Logics
+  host:  Logic & Theory Group
+  place: Vienna University of Technology
+  date: 2022-06-22
+  invited: true
+-
+  title: "Hilbert's Program and Infinity"
+  host:  Logic Café
+  place: University of Vienna
+  date: 2022-06-10
+  invited: true
+-
+  title: "Hilbert's Program and Infinity"
+  host:  Séminaire «Infini mathématique»
+  place: Université Paris I
+  date: 2022-03-10
+  invited: true
+-
+  title: 'Semantics of First-order Logic: The Early Years'
+  host:  PHILMATH Seminar
+  place: Institut d'Histoire et Philosophie des Sciences et Techniques, CNRS/Université Paris I
+  date: 2022-03-07
+  invited: true
+-
+  title: 'Semantics of First-order Logic: The Early Years'
+  host:  Logic Seminar
+  place: University of Connecticut, Storrs
+  date: 2021-11-12
+  invited: true
+-
+  title: 'Logic and Computation in the 1920s and 30s'
+  host:  Philosophy of Computation and Statistics Workshop
+  place: University of Pennsylvania
+  date: 2021-07-23
+  invited: true
+-
   title: The Significance of the Curry-Howard Isomorphism
   host: Eastern Division Meeting of the American Philosophical Association
   place: New York
@@ -222,7 +308,7 @@ presentation:
 -
   title: The Open Logic Project
   place: Seattle
-  host: Spring Meeting of the Association for Symbolic Logic, Special Session on Diversity in Logic Education
+  host: 'Spring Meeting of the Association for Symbolic Logic, Special Session on Diversity in Logic Education'
   date: 2017-04-13
   workshop: true
 -
@@ -266,6 +352,13 @@ presentation:
   host: Society for the Study of the History of Analytic Philosophy Annual Meeting
   place: Denver
   date: 2016-06-18
+  conference: true
+-
+  title: The Decision Problem and the Model Theory of First-order Logic
+  host: Canadian Society for History and Philosophy of Mathematics
+  note: Special Session on Logic and Mathematics in the 19th and 20th Centuries in Honour of Aldo Antonelli
+  place: Calgary
+  date: 2016-05-29
   conference: true
 -
   title: General Natural Deduction Rules and General Lambda Calculi
@@ -330,7 +423,7 @@ presentation:
   conference: true
 -
   title: Carnap and Logic in the 1920s and 1930s
-  place: Society for the Study of the History of Analytic Philosophy Annual Meeting
+  host: Society for the Study of the History of Analytic Philosophy Annual Meeting
   place: Montréal
   date: 2014-05-24
   conference: true
@@ -722,9 +815,9 @@ presentation:
   date: 1999-06-02
   workshop: true
 -
-  title: Hilbert, Bernays, and some Fundamental Advances in Logic, 1918-1923
+  title: 'Hilbert, Bernays, and some Fundamental Advances in Logic, 1918–1923'
   host:  Spring Meeting of the Association for Symbolic Logic
-  host:  New Orleans
+  place:  New Orleans
   date: 1999-05-07
   conference: true
 -
@@ -926,7 +1019,7 @@ teaching:
   - 
     title: Logic I
     number: Phil 279
-    date: Fall 2001, Winter 2002, Fall 2002, Winter 2004, Winter 2006, Winter 2009, Fall 2009, Fall 2010, Fall 2011, Fall 2012, Fall, 2013, Fall 2019, Winter 2020, Fall 2020
+    date: Fall 2001, Winter 2002, Fall 2002, Winter 2004, Winter 2006,Winter 2009, Fall 2009, Fall 2010, Fall 2011, Fall 2012, Fall 2013, Fall 2019, Winter 2020, Fall 2020, Winter 2021, Fall 2021
     type: undergrad
   -
     title: Philosophy of Logic
@@ -941,7 +1034,7 @@ teaching:
   -
     title: Logic II
     number: Phil 379
-    date: Winter 2003, Fall 2003, Winter 2016, Fall 2016, Fall 2019, Winter 2020
+    date: Winter 2003, Fall 2003, Winter 2016, Fall 2016, Fall 2019, Winter 2020, Winter 2021, Fall 2021
     type: undergrad
   -
     title: "Logic III: Gödel's Incompleteness Theorems"
@@ -1076,38 +1169,43 @@ students:
   type: Supervisor
   students:
     -
+      name: Husna Farooqui
+      degree: MA
+      thesis: The Curry-Howard Correspondence
+      link: https://dx.doi.org/10.11575/PRISM/39102
+      date: 2021
+    -
       name: Joseph McDonald
-      webpage: http://www.illc.uva.nl/People/show_person/?Person_id=McDonald%20J.S.
       degree: MA
       thesis: A Categorical Extension of the Curry-Howard Isomorphism
-      link: https://prism.ucalgary.ca/handle/1880/111014
+      link: https://dx.doi.org/10.11575/PRISM/37079
       date: 2019
     -
       name: Aaron Thomas-Bolduc
       webpage: https://hcommons.org/members/arthomasbolduc/
       degree: PhD
       thesis: New Directions for Neologicism
-      link: https://prism.ucalgary.ca/handle/1880/107131
+      link: https://dx.doi.org/10.11575/PRISM/32353
       date: 2018
     -
       name: Samara Burns
       webpage: https://philosophy.columbia.edu/directories/student/samara-burns
       degree: MA
       thesis: Hypersequent Calculi for Modal Logics
-      link: https://prism.ucalgary.ca/handle/1880/106539
+      link: https://dx.doi.org/10.11575/PRISM/31825
       date: 2018
     -
       name: Teppei Hayashi
       degree: PhD
       thesis: "The Continuum: History, Mathematics, and Philosophy"
-      link: https://prism.ucalgary.ca/handle/1880/106283
+      link: https://dx.doi.org/10.11575/PRISM/5364
       date: 2017
     -
       name: Zahra Ahmadianhosseini
       webpage: http://logic.berkeley.edu/students.html
       degree: MA
       thesis: Logical Models of Fallible Knowledge
-      link: https://prism.ucalgary.ca/handle/11023/3942
+      link: https://dx.doi.org/10.11575/PRISM/26213
       date: 2017
     -
       name: Zezen Qian
@@ -1116,38 +1214,38 @@ students:
       date: 2016
     -
       name: Andre Curtis-Trudel
-      webpage: https://philosophy.osu.edu/people/curtistrudel.1
+      webpage: https://www.aetrudel.net
       degree: BA Honours
       thesis: Explication, Open-Texture, and Church's Thesis
-      link: http://dspace.ucalgary.ca/handle/1880/51499
+      link: https://dx.doi.org/10.11575/PRISM/10073
       date: 2016
     -
       name: Eamon Darnell
       webpage: https://philosophy.utoronto.ca/directory/eamon-michael-darnell/
       degree: BA Honours
       thesis: Gödel vs. Mechanism
-      link: http://dspace.ucalgary.ca/handle/1880/50993
+      link: https://dx.doi.org/10.11575/PRISM/10076
       date: 2013
     -
       name: Gillman Payette
       webpage: https://uleth.academia.edu/GillmanPayette
       degree: PhD
       thesis: A Study in the Logic of Institutions
-      link: http://hdl.handle.net/11023/115
+      link: https://dx.doi.org/10.11575/PRISM/25040
       date: 2012
     -
       name: Teresa Kouri Kissel
       webpage: https://sites.google.com/site/teresakouri/
       degree: MA
       thesis: Indiscernibility and Mathematical Structuralism
-      link: http://dspace.ucalgary.ca/handle/1880/47829
+      link: https://dx.doi.org/10.11575/PRISM/14329
       date: 2010
     -
       name: Taylor Scobbie
       webpage: https://www.linkedin.com/in/taylor-scobbie-42aa70bb
       degree: BA Honours
       thesis: "Contrast and Contrastivism: The Logic of Contrastive Knowledge"
-      link: http://dspace.ucalgary.ca/handle/1880/51000
+      link: https://dx.doi.org/10.11575/PRISM/10071
       date: 2010
     -
       name: Steve Coyne
@@ -1160,20 +1258,20 @@ students:
       webpage: https://ug.academia.edu/Rafa%C5%82Urbaniak
       degree: PhD
       thesis: Leśniewski's Systems of Logic and Mereology
-      link: http://dspace.ucalgary.ca/handle/1880/46697
+      link: https://dx.doi.org/10.11575/PRISM/15194
       date: 2008
     -
       name: Julianne Chung
-      webpage: https://louisville.edu/philosophy/People/faculty-profile-pages/julianne-chung
+      webpage: https://profiles.laps.yorku.ca/profiles/jnchung/
       degree: BA Honours
       thesis: The Paradox of Knowability
-      link: http://dspace.ucalgary.ca/handle/1880/46819
+      link: https://dx.doi.org/10.11575/PRISM/10077
       date: 2007
     -
       name: Phil Serchuk
       degree: BA Honours
       thesis: Fuzzy Logic and Vagueness
-      link: http://dspace.ucalgary.ca/handle/1880/46689
+      link: https://dx.doi.org/10.11575/PRISM/10074
       date: 2006
 -
   type: "External Examiner"
@@ -1284,7 +1382,7 @@ students:
 
 teaching-award:
 -
-  title: Nominated for Teaching Excellence Award
+  title: Teaching Excellence Award, Honorable Mention
   agency: "Student's Union, University of Calgary"
   date: 2020
 -
@@ -1298,13 +1396,13 @@ service:
   gigs:
     -
       item: Committee on Diversity and Climate, Chair
-      date: 2020-
+      date: 2020-2021
     -
       item: Ad-hoc Committee on Online Learning, Member
-      date: 2020-
+      date: 2020-2021
     -
       item: Undergraduate Program Committee, Member
-      date: 2019-
+      date: 2019-2021
     -
       item: Graduate Program Director
       date: 2015-2018
@@ -1366,9 +1464,6 @@ service:
   type: "University of Calgary"
   gigs:
     -
-      item: Calgary Institute for the Humanities, Executive Council
-      date: 2016--
-    -
       item: Pacific Institute for the Mathematical Sciences, Calgary Site Steering Committee
       date: 2016--
     -
@@ -1380,6 +1475,9 @@ service:
     -
       item: Calgary Peripatetic Research Group on Logic and Category Theory, Co-organizer
       date: 2001--
+    -
+      item: Calgary Institute for the Humanities, Executive Council
+      date: 2016--2020
     -
       item: Faculty of Graduate Studies, Awards Oversight Committee
       date: 2016--2018
@@ -1450,14 +1548,14 @@ service:
       item: Canadian Society for History and Philosophy of Mathematics, Council Member
       date: 2018--
     -
-      item: Association for Symbolic Logic, Membership Committee, Member
-      date: 2016--
-    -
       item: Special Interest Group on Logic and Computation of the ACM, Education Committee, Member
       date: 2014--
     -
       item: Kurt Gödel Society, Executive Board, Member
       date: 1992--94, 2005--
+    -
+      item: Association for Symbolic Logic, Membership Committee, Member
+      date: 2016--2021
     -
       item: Society for the Study of the History of Analytic Philosophy, Secretary
       date: 2015--2019
@@ -1581,18 +1679,65 @@ service:
     -
       item: "Presses: Blackwell, Cambridge University Press, Oxford University Press, Princeton University Press, Springer"
     -
-      item: "Journals: \\emph{Archive for  Mathematical Logic}, \\emph{American Philosophical Quarterly}, \\emph{Bulletin of Symbolic Logic}, \\emph{Dialectica}, \\emph{Ergo}, \\emph{Erkenntnis}, \\emph{European Journal for Philosophy of Science}, \\emph{Historia Mathematica}, \\emph{History and Philosophy of Logic}, \\emph{Journal of Applied Logic}, \\emph{Journal of Philosophical Logic}, \\emph{Journal of Symbolic Logic}, \\emph{Journal of Applied Non-Classical Logics}, \\emph{Journal of Humanistic Mathematics}, \\emph{Journal of Logic and Computation}, \\emph{Journal of Logic, Language, and Information}, \\emph{Logic Journal of the IGPL}, \\emph{Logic and Logical Philosophy}, \\emph{Journal for the History of Analytic Philosophy}, \\emph{Mathematical Logic Quarterly}, \\emph{Mind}, \\emph{Notre Dame Journal of Formal Logic}, \\emph{Philosopher's Imprint}, \\emph{Philosophia Mathematica}, \\emph{Philosophical Transactions of the Royal Society A}, \\emph{Review of Symbolic Logic}, \\emph{Studia Logica}, \\emph{Studies in History and Philosophy of Science}, \\emph{Synthese}, \\emph{Theoretical Computer Science}"
+      item: "Journals: \\emph{Archive for  Mathematical Logic},
+        \\emph{Australian Journal of Logic},
+        \\emph{American Philosophical Quarterly},
+        \\emph{Bulletin of Symbolic Logic},
+        \\emph{Dialectica}, \\emph{Ergo}, \\emph{Erkenntnis},
+        \\emph{European Journal for Philosophy of Science},
+        \\emph{Historia Mathematica},
+        \\emph{History and Philosophy of Logic},
+        \\emph{Journal of Applied Logic}, 
+        \\emph{Journal Philosophical Logic},
+        \\emph{Journal of Symbolic Logic},
+        \\emph{Journal of Applied Non-Classical Logics},
+        \\emph{Journal of Humanistic Mathematics},
+        \\emph{Journal of Logic and Computation},
+        \\emph{Journal of Logic, Language, and Information},
+        \\emph{Logic Journal of the IGPL},
+        \\emph{Logic and Logical Philosophy},
+        \\emph{Journal for the History of Analytic Philosophy},
+        \\emph{Mathematical Logic Quarterly},
+        \\emph{Mind}, 
+        \\emph{Notre Dame Journal of Formal Logic},
+        \\emph{Philosopher's Imprint}, 
+        \\emph{Philosophia Mathematica},
+        \\emph{Philosophical Transactions of the Royal Society A},
+        \\emph{Review of Symbolic Logic}, \\emph{Studia Logica},
+        \\emph{Studies in History and Philosophy of Science},
+        \\emph{Synthese}, \\emph{Theoretical Computer Science}"
     -
-      item: "Conferences: Indian Conference on Logic and its Applications 2019; Logica 2018; Western Canadian Philosophy Association 2002, 2004, 2016, 2018; Canadian Philosophical Association 2003, 2006, 2008, 2017; Workshops on Computer Science Logic 1994, 1995, 2002, 2017; Logic in Computer Science 2015; Computability in Europe 2008; Logic for Programming and Automated Reasoning 1992, 2005, 2007; World Congress on Universal Logic 2005; Society for Exact Philosophy 2005; International Joint Conference on Automated Reasoning 2004; International Symposia on Multiple Valued Logic 1994, 1998; Kurt Gödel Colloquia 1993, 1997; International Conference on Automated Deduction 1994, 2004; European Conference on Artificial Intelligence 1994; Workshop on Tableau-based Deduction, 1993"
+      item: "Conferences: Indian Conference on Logic and its
+        Applications 2019; Logica 2018; Western Canadian Philosophy
+        Association 2002, 2004, 2016, 2018; Canadian Philosophical
+        Association 2003, 2006, 2008, 2017; Workshops on Computer
+        Science Logic 1994, 1995, 2002, 2017; Logic in Computer Science
+        2015; Computability in Europe 2008; Logic for Programming and
+        Automated Reasoning 1992, 2005, 2007; World Congress on
+        Universal Logic 2005; Society for Exact Philosophy 2005;
+        International Joint Conference on Automated Reasoning 2004;
+        International Symposia on Multiple Valued Logic 1994, 1998; Kurt
+        Gödel Colloquia 1993, 1997; International Conference on
+        Automated Deduction 1994, 2004; European Conference on
+        Artificial Intelligence 1994; Workshop on Tableau-based
+        Deduction, 1993, 2021"
     -
-      item: "Granting Agencies: Austrian Science Fund, Fonds Québéquois de Recherche sur la Société et Culture, Natural Sciences and Engineering Research Council of Canada NSERC, Research Foundation Flanders, Social Sciences and Humanities Research Council of Canada SSHRC, Deutsche Forschungsgemeinschaft, Canada Council for the Arts, Israel Science Foundation, Nederlands Organization for Scientific Research, Swiss National Science Foundation"
+      item: "Granting Agencies: Austrian Science Fund, Fonds
+        Québéquois de Recherche sur la Société et Culture, Natural
+        Sciences and Engineering Research Council of Canada NSERC,
+        Research Foundation Flanders, Social Sciences and Humanities
+        Research Council of Canada SSHRC, Deutsche
+        Forschungsgemeinschaft, Canada Council for the Arts, Iceland
+        Research Fund, Israel Science Foundation, Nederlands Organization for
+        Scientific Research, Swiss National Science Foundation"
 
 grants:
 -
   type: Insight Development Grant, Social Sciences and Humanities Research Council of Canada (SSHRC)
   title: Toward a Philosophy of Programming Languages
-  date: 2020--2022
+  date: 2020--2023
   value: CAD 45,378
+  short: true
 - 
   type: Teaching Activity Grant, Faculty of Arts, University of Calgary
   title: "How Do We Know?"
@@ -1625,6 +1770,7 @@ grants:
   title: The Collected Works of Rudolf Carnap (Phase 2)
   date: 2012--2017
   value: CAD 133,680
+  short: true
   note: "Co-applicant: Dirk Schlimm, McGill University"
 -
   type: Visiting Scholar Grant, University of Calgary Research Grants Committee
@@ -1635,12 +1781,14 @@ grants:
   type: Standard Research Grant, Social Sciences and Humanities Research Council of Canada (SSHRC)
   title: The Collected Works of Rudolf Carnap
   date: 2008--2011 
-  value: CAD 64,900 
+  value: CAD 64,900
+  short: true
   note: "Co-applicant: Dirk Schlimm, McGill University"
 -
   type: Discovery Grant, Natural Sciences and Engineering Research Council of Canada (NSERC)
   title: Computational Aspects of the Epsilon Calculus
   date: 2007--2012
+  short: true
   value: CAD 70,000
 -
   type: Conference Grant, University of Calgary Research Grants Committee
@@ -1676,6 +1824,7 @@ grants:
   title: The History of Logical Metatheory, 1900--1940
   date: 2004--2007
   value: CAD 68,200
+  short: true
 -
   type: Discovery Grant, Natural Sciences and Engineering Research Council of Canada (NSERC)
   title: "Gödel Logics: Foundations and Applications in Computer Science"

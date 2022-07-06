@@ -622,6 +622,7 @@
   <bibliography hanging-indent="true" et-al-min="11" et-al-use-first="7" entry-spacing="0">
     <sort>
       <key variable="issued" sort="descending"/>
+      <key variable="author"/>
     </sort>
     <layout suffix=".">
       <group delimiter=". ">

@@ -1,5 +1,5 @@
 ---
-citation-style: publication-list.csl
+citation-style: chicago-author-date.csl
 nocite: |
   @*
 ...
@@ -8,15 +8,15 @@ nocite: |
 # $name$
 
 $for(address)$
->  $address$  
+>  $address$
 $endfor$
 
-> Web: [$www$](http://$www$)  
-> EMail: [$email$](mailto:$email$)  
-> Phone: $tel$  
-> Twitter: [$twitter$](http://twitter.com/$twitter$)  
-> [Google Scholar](https://scholar.google.ca/citations?user=$scholar$&hl=en&oi=ao)  
-> [Philpapers](https://philpapers.org/profile/$philpapers$)  
+> Web: [$www$](http://$www$) 
+> EMail: [$email$](mailto:$email$)
+> Phone: $tel$
+> Twitter: [$twitter$](http://twitter.com/$twitter$)
+> [Google Scholar](https://scholar.google.ca/citations?user=$scholar$&hl=en&oi=ao)
+> [Philpapers](https://philpapers.org/profile/$philpapers$)
 > ORCID: [$orcid$](http://orcid.org/$orcid$)
 
 
