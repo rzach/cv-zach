@@ -113,7 +113,7 @@ $endfor$
 \subsection{Conference Keynotes}
 
 $for(presentation)$
-$if(presentation.keynote)$\ind ``$presentation.title$.'' $if(presentation.host)$\emph{$presentation.host$}, $endif$$presentation.place$, \printdate{$presentation.date$}.
+$if(presentation.keynote)$\ind ``$presentation.title$.'' $if(presentation.host)$\emph{$presentation.host$}, $endif$$if(presentation.note)$$presentation.note$, $endif$$presentation.place$, \printdate{$presentation.date$}.
 
 $endif$
 $endfor$
@@ -121,7 +121,7 @@ $endfor$
 \subsection{Invited Conference and Workshop Talks}
 
 $for(presentation)$
-$if(presentation.workshop)$\ind ``$presentation.title$.'' $if(presentation.host)$\emph{$presentation.host$}, $endif$$presentation.place$, \printdate{$presentation.date$}.
+$if(presentation.workshop)$\ind ``$presentation.title$.'' $if(presentation.host)$\emph{$presentation.host$}, $endif$$if(presentation.note)$$presentation.note$, $endif$$presentation.place$, \printdate{$presentation.date$}.
 
 $endif$
 $endfor$

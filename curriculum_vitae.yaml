@@ -161,7 +161,6 @@ editor:
     role: Founding Editor
     begindate: 2010-00-00
     enddate: 2020-00-00
-    short: true
   -
     item: The Review of Symbolic Logic
     link: https://www.cambridge.org/core/journals/review-of-symbolic-logic
@@ -308,7 +307,8 @@ presentation:
 -
   title: The Open Logic Project
   place: Seattle
-  host: 'Spring Meeting of the Association for Symbolic Logic, Special Session on Diversity in Logic Education'
+  host: Spring Meeting of the Association for Symbolic Logic
+  note: Special Session on Diversity in Logic Education
   date: 2017-04-13
   workshop: true
 -
@@ -485,7 +485,7 @@ presentation:
   date: 2010-10-29
   conference: true
 -
-  title: '"Principia Mathematica" and the development of logic'
+  title: "'Principia Mathematica' and the development of logic"
   host: PM@100
   place: McMaster University, Hamilton
   workshop: true
@@ -522,7 +522,8 @@ presentation:
   invited: true
 -
   title: Carnap's Logic in the 1930s
-  host:  Annual Meeting of the Association for Symbolic Logic, Special Session on Logic and Logical Empiricism
+  host:  Annual Meeting of the Association for Symbolic Logic
+  note: Special Session on Logic and Logical Empiricism
   place: University of California, Irvine
   date: 2008-03-28
   workshop: true
@@ -638,7 +639,8 @@ presentation:
   title: Vagueness and Infinitely Many Truth Values
   place:  University of California, Berkeley
   host: Townsend Center Working Group in History and Philosophy of Logic, Mathematics, and Science
-  date: 2004-11-03.
+  date: 2004-11-03
+  invited: true
 -
   title: Gödel's First Incompleteness Theorem and Detlefsen's Hilbertian Instrumentalism
   host:  Logic Colloquium
@@ -739,33 +741,40 @@ presentation:
 -
   title: "Hilbert's 'Ansatz' for the Epsilon-Substitution Method and Ackermann's Dissertation"
   host:  Spring Meeting of the Association for Symbolic Logic
+  note: Special Session on Proof Theory and Constructivism
   place: Minneapolis
   date: 2001-05-04
+  workshop: true
 -
   title: The Epistemology of Mathematics and Hilbert's Finitism
   place:  University of Calgary
   host: Department of Philosophy 
   date: 2001-03-20
+  invited: true
 -
   title: Epsilon Calculus and Consistency Proofs in Hilbert's Program
   host: Mathematical Logic Seminar
   place: Stanford University
   date: 2001-03-13
+  invited: true
 -
   title: Epsilon Calculus and Consistency Proofs in Hilbert's Program
   host: Philosophy of Mathematics Workshop
   place: University of California, Los Angeles 
   date: 2001-03-05
+  workshop: true
 -
   title: Instrumentalism in Mathematics
   place:  University of South Florida, Tampa
   host: Department of Philosophy 
   date: 2001-02-06
+  invited: true
 -
   title: Epsilon Calculus and Consistency Proofs in Hilbert's Program
   place: University of California, Irvine
   host: Department of Logic and Philosophy of Science
   date: 2001-01-26
+  invited: true
 -
   title: The Syntax-Semantics Distinction and Hilbert's `No Ignorabimus'
   host: History of Philosophy of Science 
@@ -903,6 +912,7 @@ presentation:
   host:  Institute of Computer Science
   place: Academy of Sciences of the Czech Republic, Prague
   date: 1994-00-00
+  invited: true
 -
   title: Systematic Construction of Natural Deduction Systems for Many-Valued Logics
   host:  23rd International Symposium on Multiple-Valued Logic

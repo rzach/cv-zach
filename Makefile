@@ -1,3 +1,5 @@
+SHELL := /bin/bash
+
 .PHONY: FORCE_MAKE
 
 all: cv-zach.pdf
@@ -26,7 +28,8 @@ yaml-cv.md: curriculum_vitae.yaml
 %-scholar.tex: FORCE_MAKE
 	rm -f $@
 	for cids in `grep 'scholar =' zach.bib|sed 's/^[^0-9]*//;s/[^0-9]*$$//'` ; do \
-	 	sleep 3m ;\
+#	 	sleep "$$((10+$$RANDOM % 15))m" ;\
+		sleep 1s ;\
 		cidss=`echo $$cids | sed 's/,/ /g'` ;\
 		cites=`./citecount $$cidss` ;\
 		echo "$$cites citations for $$cidss" ;\
