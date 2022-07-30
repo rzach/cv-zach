@@ -31,6 +31,21 @@ appointment:
         item: Assistant Professor
         begindate: 2001-07-01
         enddate: 2004-06-30
+  -
+    place: 'Technische Universität Wien, Department of Computer Science'
+    items:
+      -
+        item: Visiting Researcher
+        begindate: 2022-01-01
+        enddate: 2022-06-30
+      -
+        item: Erasmus Mundus Scholar
+        begindate: 2009-00-00
+        enddate: 2009-00-00
+      -
+        item: Lecturer
+        begindate: 1995-03-01
+        enddate: 2000-06-30
   - 
     place: 'McGill University, Department of Philosophy'
     items:
@@ -62,17 +77,6 @@ appointment:
         begindate: 1996-09-01
         enddate: 2000-12-31
 
-  -
-    place: 'Technische Universität Wien, Department of Computer Science'
-    items:
-      -
-        item: Erasmus Mundus Scholar
-        begindate: 2009-00-00
-        enddate: 2009-00-00
-      -
-        item: Lecturer
-        begindate: 1995-03-01
-        enddate: 2000-06-30
 
 shortappointment:
   -
@@ -1218,7 +1222,8 @@ students:
       link: https://dx.doi.org/10.11575/PRISM/26213
       date: 2017
     -
-      name: Zezen Qian
+      name: Zesen Qian
+      webpage: https://pure.au.dk/portal/en/persons/zesen-qian(edd486fe-dcbf-432b-86e5-3474275f2f1c).html
       degree: Mitacs Summer Intern
       thesis: The Open Logic Project
       date: 2016
@@ -1405,6 +1410,9 @@ service:
   type: "Department of Philosophy, University of Calgary"
   gigs:
     -
+      item: Graduate Program Director
+      date: 2022-2025
+    -
       item: Committee on Diversity and Climate, Chair
       date: 2020-2021
     -
@@ -1487,7 +1495,7 @@ service:
       date: 2001--
     -
       item: Calgary Institute for the Humanities, Executive Council
-      date: 2016--2020
+      date: 2016--2021
     -
       item: Faculty of Graduate Studies, Awards Oversight Committee
       date: 2016--2018
@@ -1553,10 +1561,10 @@ service:
   gigs:
     -
       item: Philosophy of Mathematics Association, President
-      date: 2019--
+      date: 2019--2022
     -
       item: Canadian Society for History and Philosophy of Mathematics, Council Member
-      date: 2018--
+      date: 2018--2022
     -
       item: Special Interest Group on Logic and Computation of the ACM, Education Committee, Member
       date: 2014--
@@ -1599,6 +1607,9 @@ service:
 -
   type: Conferences
   gigs:
+    -
+      item: Spring Meeting of the Association for Symbolic Logic, San Francisco, Program Committee Member
+      date: 2023
     - item: Indian Conference on Logic an its Applications ICLA 2019, Program Committee Member
       date: 2019
     - item: Western Canadian Philosophical Association WCPA, University of Calgary, Organizer
@@ -1792,7 +1803,6 @@ grants:
   title: The Collected Works of Rudolf Carnap
   date: 2008--2011 
   value: CAD 64,900
-  short: true
   note: "Co-applicant: Dirk Schlimm, McGill University"
 -
   type: Discovery Grant, Natural Sciences and Engineering Research Council of Canada (NSERC)
@@ -1834,7 +1844,6 @@ grants:
   title: The History of Logical Metatheory, 1900--1940
   date: 2004--2007
   value: CAD 68,200
-  short: true
 -
   type: Discovery Grant, Natural Sciences and Engineering Research Council of Canada (NSERC)
   title: "Gödel Logics: Foundations and Applications in Computer Science"

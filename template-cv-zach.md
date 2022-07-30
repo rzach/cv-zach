@@ -39,13 +39,6 @@ $endif$
 
 $endfor$
 
-$for(competencies)$
-## $competencies.type$
-$for(competencies.items)$$competencies.items$
-
-$endfor$
-$endfor$
-
 ## Appointments
 
 $for(appointment)$
@@ -69,54 +62,6 @@ $endfor$
 $for(editor)$
 _[$editor.item$]($editor.link$)_, $editor.role$. $editor.begindate$-$if(editor.enddate)$$editor.enddate$$endif$.
 
-$endfor$
-
-## Teaching and Supervision
-
-### Courses Taught
-
-$for(teaching)$
-#### $teaching.school$
-
-$for(teaching.courses)$
-$teaching.courses.title$ ($teaching.courses.number$). $teaching.courses.date$. ($teaching.courses.type$)
-
-$endfor$
-$endfor$
-
-### Supervision
-
-$for(students)$
-#### $students.type$
-$for(students.students)$
-$if(students.students.webpage)$[$students.students.name$]($students.students.webpage$)$else$$students.students.name$$endif$ ($students.students.degree$), "$if(students.students.link)$[$students.students.thesis$]($students.students.link$)$else$$students.students.thesis$$endif$," $students.students.date$
-
-$endfor$
-$endfor$
-
-
-### Teaching Awards
-
-$for(teaching-award)$
-$teaching-award.title$, $teaching-award.agency$, $teaching-award.date$.
-
-$endfor$
-
-## Grants
-
-$for(grants)$
-$grants.type$, $if(grants.title)$"$grants.title$," $endif$$grants.value$, $grants.date$$if(grants.note)$ ($grants.note$)$endif$.
-
-$endfor$
-
-## Service
-
-$for(service)$
-### $service.type$
-$for(service.gigs)$
-$service.gigs.item$. $if(service.gigs.date)$$service.gigs.date$.$endif$
-
-$endfor$
 $endfor$
 
 ## Publications
@@ -152,17 +97,20 @@ $if(presentation.conference)$$presentation.title$. $if(presentation.host)$_$pres
 
 $endif$$endfor$
 
-## Commentaries
+## Graduate Supervision
 
-$for(presentation)$
-$if(presentation.comments)$$presentation.title$. $if(presentation.host)$_$presentation.host$_, $endif$$presentation.place$, $presentation.date$.
+$for(students)$
+#### $students.type$
+$for(students.students)$
+$if(students.students.webpage)$[$students.students.name$]($students.students.webpage$)$else$$students.students.name$$endif$ ($students.students.degree$), "$if(students.students.link)$[$students.students.thesis$]($students.students.link$)$else$$students.students.thesis$$endif$," $students.students.date$
 
-$endif$$endfor$
+$endfor$
+$endfor$
 
-## Local Talks
 
-$for(presentation)$
-$if(presentation.local)$$presentation.title$. $if(presentation.host)$_$presentation.host$_, $endif$$presentation.place$, $presentation.date$.
-$endif$
+### Teaching Awards
+
+$for(teaching-award)$
+$teaching-award.title$, $teaching-award.agency$, $teaching-award.date$.
 
 $endfor$
