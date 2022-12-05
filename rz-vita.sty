@@ -15,7 +15,7 @@
 \usepackage{paralist,ragged2e,datetime}
 \usepackage{hyperref,fancyhdr,enumitem,color}
 \usepackage[centering]{geometry}
-\usepackage{fontawesome}
+\usepackage{fontawesome5}
 \usepackage[compact,small,sf,bf]{titlesec}
 \usepackage{etaremune}
 %% ------------------------------------------------------------------------  
@@ -86,6 +86,8 @@
 \def\www#1{\def\@www{#1}}
 \def\email#1{\def\@email{#1}}
 \def\twitter#1{\def\@twitter{#1}}
+\def\mastodonhandle#1{\def\@mastodonhandle{#1}}
+\def\mastodoninstance#1{\def\@mastodoninstance{#1}}
 \def\tel#1{\def\@tel{#1}}
 \def\orcid#1{\def\@orcid{#1}}
 \def\philpapers#1{\def\@philpapers{#1}}
@@ -128,15 +130,19 @@
     \flushright {\footnotesize \@address} 
   \end{minipage}
   \hfill     
-  \begin{minipage}[t]{1.7in}
+  \begin{minipage}[t]{2in}
     \flushright
     {\scriptsize \texttt{\@tel \, \faPhone} } \\
     {\scriptsize  \texttt{\href{mailto:\@email}{\@email}} \, \faEnvelope} \\
     {\scriptsize  \texttt{\href{http://\@www}{\@www}} \, \faGlobe} \\
     {\scriptsize  \texttt{\href{https://github.com/\@github}{\@github}} \, \faGithub} \\
-    {\scriptsize  \texttt{\href{https://twitter.com/\@twitter}{\@twitter} \, \faTwitter}} \\
+    {\scriptsize
+    \texttt{\href{https://twitter.com/\@twitter}{\@twitter}\, \faTwitter}} \\
+    {\scriptsize
+    \texttt{\href{https://\@mastodoninstance/@\@mastodonhandle}{@\@mastodonhandle
+    @\@mastodoninstance}\, \faMastodon}} \\
     {\scriptsize  \textsc{\href{https://scholar.google.ca/citations?user=\@googlescholar&hl=en}{Google Scholar}} \, \faGoogle} \\
-    {\scriptsize  \textsc{\href{https://philpapers.org/profile/\@philpapers}{PhilPapers}} \, \faFileText} \\
+    {\scriptsize  \textsc{\href{https://philpapers.org/profile/\@philpapers}{PhilPapers}} \, \faFile*} \\
     
   \end{minipage}
 
