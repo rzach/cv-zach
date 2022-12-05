@@ -28,7 +28,7 @@ yaml-cv.md: curriculum_vitae.yaml
 %-scholar.tex: FORCE_MAKE
 	rm -f $@
 	for cids in `grep 'scholar =' zach.bib|sed 's/^[^0-9]*//;s/[^0-9]*$$//'` ; do \
-#	 	sleep "$$((10+$$RANDOM % 15))m" ;\
+	 	sleep "$$((3+$$RANDOM % 15))m" ;\
 		sleep 1s ;\
 		cidss=`echo $$cids | sed 's/,/ /g'` ;\
 		cites=`./citecount $$cidss` ;\

@@ -138,12 +138,6 @@ editor:
     role: Editor
     begindate: 2006-00-00
   -
-    item: Studia Logica
-    link: http://www.studialogica.org/
-    role: Associate Editor
-    begindate: 2006-00-00
-    short: true
-  -
     item: Stanford Encyclopedia of Philosophy
     link: https://plato.stanford.edu/
     role: Subject Editor, History of Logic
@@ -171,6 +165,13 @@ editor:
     role: Founding Editor
     begindate: 2007-01-01
     enddate: 2013-12-31
+  -
+    item: Studia Logica
+    link: http://www.studialogica.org/
+    role: Associate Editor
+    begindate: 2006-00-00
+    enddate: 2008-00-00
+    short: true
 
 education:
   -
@@ -248,6 +249,18 @@ award:
   date: 1994-1995
 
 presentation:
+-
+  title: "Hilbert's program and infinity"
+  host: Online Colloquium
+  place: Canadian Society for the History and Philosophy of Mathematics
+  date: 2022-10-28
+  invited: true
+-
+  title: "Semantics of First-order Logic: The Early Years"
+  host: Logic Seminar (online)
+  place: Sun Yat-sen University, Guangzhou
+  date: 2022-11-15
+  invited: true
 -
   title: Prefixed Tableaux for Simply Dependent Multimodal Logics
   host:  Logic & Theory Group
