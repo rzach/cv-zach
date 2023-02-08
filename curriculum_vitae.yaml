@@ -182,8 +182,8 @@ education:
     field: Logic and the Methodology of Science
     date: 2001-05-01
     info: |
-      "Thesis: Hilberts Finitism: Historical, Philosophical, and
-      Metamathematical Perspectives. Supervisors: Paolo Mancosu, Jack H. Silver"
+      Thesis: "Hilberts Finitism: Historical, Philosophical, and
+      Metamathematical Perspectives." Supervisors: Paolo Mancosu, Jack H. Silver
     short: yes
   -
     school: University of California, Berkeley
@@ -219,6 +219,10 @@ competencies:
 
 award:
 -
+  title: Shoenfield Prize
+  agency: Association for Symbolic Logic
+  date: 2022
+-
   title: Bulletin of Symbolic Logic 25th Anniversary Prize
   agency: Association for Symbolic Logic
   date: 2021
@@ -251,6 +255,12 @@ award:
   date: 1994-1995
 
 presentation:
+-
+  title: Logical Archeology of Automated Theorem Proving
+  host: World Logic Day in Alberta and British Columbia
+  place: Online
+  date: 2023-01-14
+  local: true
 -
   title: "Hilbert's program and infinity"
   host: Online Colloquium
@@ -1218,7 +1228,7 @@ students:
       date: 2018
     -
       name: Samara Burns
-      webpage: https://philosophy.columbia.edu/directories/student/samara-burns
+      webpage: https://philosophy.columbia.edu/content/samara-burns
       degree: MA
       thesis: Hypersequent Calculi for Modal Logics
       link: https://dx.doi.org/10.11575/PRISM/31825
