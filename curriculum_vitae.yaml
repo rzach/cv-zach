@@ -34,6 +34,13 @@ appointment:
         begindate: 2001-07-01
         enddate: 2004-06-30
   -
+    place: 'Université Paris 1 Panthéon-Sorbonne'
+    items:
+      -
+        item: 'Professeur invité'
+        begindate: 2023-04-10
+        enddate: 2023-04-23
+  -
     place: 'Technische Universität Wien, Department of Computer Science'
     items:
       -
@@ -85,6 +92,16 @@ shortappointment:
     place: University of Calgary
     item: Professor
     begindate: 2009-07-01
+  -
+    place: Université Paris 1 Panthéon-Sorbonne
+    item: Professeur invité
+    begindate: 2023-04-10
+    enddate: 2023-04-23
+  -
+    place: Technische Universität Wien
+    item: Visiting Researcher
+    begindate: 2022-01-01
+    enddate: 2022-06-30
   - 
     place: McGill University
     item: Visiting Professor
@@ -256,6 +273,30 @@ award:
 
 presentation:
 -
+  title: The Pre-History of Automated Reasoning
+  host: Logic & Theory Group
+  place: Vienna University of Technology
+  date: 2023-05-03
+  invited: true
+-
+  title: "Semantics of First-order Logic: The Early Years"
+  host: Munich Center for Mathematical Philosophy
+  place: Ludwig-Maximilians-Universität, Munich
+  date: 2022-11-15
+  invited: true
+- 
+  title: The Pre-History of Automated Reasoning
+  host:  PHILMATH Seminar
+  place: Institut d'Histoire et Philosophie des Sciences et Techniques, CNRS/Université Paris 1 Panthéon-Sorbonne
+  date: 2022-04-17
+  invited: true
+-
+  title: The Automation of Reasoning
+  host:  The Formal Turn in 20th Century Thought
+  place: University of Vienna
+  date: 2023-02-16
+  workshop: true
+-
   title: Logical Archeology of Automated Theorem Proving
   host: World Logic Day in Alberta and British Columbia
   place: Online
@@ -293,8 +334,8 @@ presentation:
   invited: true
 -
   title: 'Semantics of First-order Logic: The Early Years'
-  host:  PHILMATH Seminar
-  place: Institut d'Histoire et Philosophie des Sciences et Techniques, CNRS/Université Paris I
+  host: PHILMATH Seminar
+  place: Institut d'Histoire et Philosophie des Sciences et Techniques, CNRS/Université Paris 1 Panthéon-Sorbonne
   date: 2022-03-07
   invited: true
 -
@@ -373,7 +414,7 @@ presentation:
 -
   title: 'Comments on Patricia Blanchette: Models from Geometry to Logic'
   host: 50th Chapel Hill Philosophy Colloquium
-  place: University of North Carolina, Chapel Hill   
+  place: University of North Carolina, Chapel Hill
   date: 2016-10-23
   comments: true
 -
@@ -1093,7 +1134,7 @@ teaching:
   -
     title: Graduate Proseminar
     number: Phil 603
-    date: Fall 2015, Fall 2016, Fall 2017
+    date: Fall 2015, Fall 2016, Fall 2017, Fall/Winter 2022/23
     type: grad
   -
     title: "Advanced Topics in Logic: Proof Theory"
@@ -1317,6 +1358,12 @@ students:
   type: "External Examiner"
   students:
     -
+      name: Romain Büchi
+      degree: "Dr. phil. in Philosophy"
+      thesis: Über Variablen und Entscheidbarkeit
+      supervisor: Katia Saporiti
+      date: 2023
+    -
       name: Nicola Bonatti
       degree: "MPhil in Philosophy, University of St. Andrews"
       thesis: "The Meaning of Quantifiers and the Epsilon Calculus"
@@ -1344,13 +1391,18 @@ students:
   type: Committee Member
   students:
     -
+      name: Ananya Chattoraj
+      degree: "PhD in Philosophy, supervisor: Ken Waters"
+      thesis: What is Data?
+      date: 2023
+    -
       name: Zain Rizvi
       degree: "PhD in Computer Science, supervisor: Philip Fong"
       thesis: "The SUDO Framework for Data Organization And Efficient Query Authorization For NoSQL Databases"
       date: 2020
     -
       name: Brent Odland
-      degree: MA
+      degree: "MA in Philosophy, supervisor: Mark Migotti"
       thesis: "Peirce's Triadic Logic: Continuity, Modality, and L"
       link: http://hdl.handle.net/1880/112238
       date: 2020
@@ -1436,43 +1488,43 @@ service:
   gigs:
     -
       item: Graduate Program Director
-      date: 2022-2025
-    -
-      item: Committee on Diversity and Climate, Chair
-      date: 2020-2021
-    -
-      item: Ad-hoc Committee on Online Learning, Member
-      date: 2020-2021
-    -
-      item: Undergraduate Program Committee, Member
-      date: 2019-2021
-    -
-      item: Graduate Program Director
-      date: 2015-2018
-    -
-      item: Committee on Diversity and Climate, Member
-      date: 2015-2018
-    -
-      item: Head's Advisory Committee, Member
-      date: 2013-2014, 2015-2018
+      date: 2015--2018, 2022--2025
     -
       item: Graduate Program Committee, Chair
-      date: 2015-2018
+      date: 2015--2018, 2022--2025
+    -
+      item: Head's Advisory Committee, Member
+      date: 2013--2014, 2015--2018, 2022--2025
+    -
+      item: Headship Selection Committee
+      date: 2023
+    -
+      item: Committee on Equity, Diversity and Inclusion, Chair
+      date: 2020--2023
+    -
+      item: Ad-hoc Committee on Online Learning, Member
+      date: 2020
+    -
+      item: Undergraduate Program Committee, Member
+      date: 2019--2021
+    -
+      item: Committee on Diversity and Climate, Member
+      date: 2015--2018
     -
       item: Field of Study Exam Standing Committee (Logic and Language), Member
-      date: 2015-2018
+      date: 2015--2018
     -
       item: Preliminary Exam Standing Committee (Logic and Language), Chair
-      date: 2003-2004, 2008-2014
+      date: 2003--2004, 2008--2014
     -
       item: Graduate Program Committee, Member
-      date: 2002-2004, 2005-2006, 2009-2013
+      date: 2002--2004, 2005--2006, 2009--2013
     -
       item: Hiring Committee (Logic and Philosophy of Science), Member
       date: 2012
     -
-      item: Speaker's Committe, Chair
-      date: 2008-2011
+      item: Speaker's Committee, Chair
+      date: 2008--2011
     -
       item: Hiring Committee (Logic and Philosophy of Science Postdoc), Member
       date: 2010
@@ -1633,7 +1685,10 @@ service:
   type: Conferences
   gigs:
     -
-      item: Spring Meeting of the Association for Symbolic Logic, San Francisco, Program Committee Member
+      item: International Congress of Logic, Methodology and Philosophy of Science and Technology CLMPST 2023, Program Committee Member
+      date: 2023
+    -
+      item: Winter Meeting of the Association for Symbolic Logic, San Francisco, Program Committee Member
       date: 2023
     - item: Indian Conference on Logic an its Applications ICLA 2019, Program Committee Member
       date: 2019
@@ -1726,8 +1781,8 @@ service:
       item: "Presses: Blackwell, Cambridge University Press, Oxford University Press, Princeton University Press, Springer"
     -
       item: "Journals: \\emph{Archive for  Mathematical Logic},
-        \\emph{Australian Journal of Logic},
         \\emph{American Philosophical Quarterly},
+        \\emph{Australian Journal of Logic},
         \\emph{Bulletin of Symbolic Logic},
         \\emph{Dialectica}, \\emph{Ergo}, \\emph{Erkenntnis},
         \\emph{European Journal for Philosophy of Science},
@@ -1775,9 +1830,16 @@ service:
         Research Council of Canada SSHRC, Deutsche
         Forschungsgemeinschaft, Canada Council for the Arts, Iceland
         Research Fund, Israel Science Foundation, Nederlands Organization for
-        Scientific Research, Swiss National Science Foundation"
+        Scientific Research, Swiss National Science Foundation,
+        National Science Center Poland"
 
 grants:
+-
+  type: Discovery Grant, Natural Sciences and Engineering Research Council of Canada (NSERC)
+  title: Proof Theory and Logic in Computer Science
+  date: 2023--2028
+  value: CAD 161,750
+  short: true
 -
   type: Insight Development Grant, Social Sciences and Humanities Research Council of Canada (SSHRC)
   title: Toward a Philosophy of Programming Languages
