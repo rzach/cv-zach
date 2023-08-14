@@ -273,6 +273,18 @@ award:
 
 presentation:
 -
+  title: "The Epsilon Calculus in Non-Classical Logics: Recent Results and Open Questions"
+  host: Workshop on Logic, Language, and Information WoLLIC 2023
+  place: Dalhousie University, Halifax
+  date: 2023-07-11
+  keynote: true
+-
+  title: The Pre-History of Automated Reasoning
+  host: Logic Seminar
+  place: Wuhan University
+  date: 2023-05-17
+  invited: true
+-
   title: The Pre-History of Automated Reasoning
   host: Logic & Theory Group
   place: Vienna University of Technology
@@ -1249,6 +1261,13 @@ students:
   type: Supervisor
   students:
     -
+      name: Amirhossein Kiani
+      webpage: https://www.linkedin.com/in/amirhossein-kiani/
+      degree: PhD
+      thesis: Ramification, Structure and Ground
+      link: https://hdl.handle.net/1880/116746
+      date: 2023
+    -
       name: Husna Farooqui
       degree: MA
       thesis: The Curry-Howard Correspondence
@@ -1309,7 +1328,7 @@ students:
       date: 2013
     -
       name: Gillman Payette
-      webpage: https://uleth.academia.edu/GillmanPayette
+      webpage: https://philpeople.org/profiles/gillman-payette
       degree: PhD
       thesis: A Study in the Logic of Institutions
       link: https://dx.doi.org/10.11575/PRISM/25040
@@ -1336,7 +1355,7 @@ students:
       date: 2009
     -
       name: Rafał Urbaniak
-      webpage: https://ug.academia.edu/Rafa%C5%82Urbaniak
+      webpage: https://rfl-urbaniak.github.io/
       degree: PhD
       thesis: Leśniewski's Systems of Logic and Mereology
       link: https://dx.doi.org/10.11575/PRISM/15194
@@ -1392,83 +1411,99 @@ students:
   students:
     -
       name: Ananya Chattoraj
-      degree: "PhD in Philosophy, supervisor: Ken Waters"
+      degree: PhD in Philosophy
+      supervisor: Ken Waters
       thesis: What is Data?
       date: 2023
     -
       name: Zain Rizvi
-      degree: "PhD in Computer Science, supervisor: Philip Fong"
+      degree: PhD in Computer Science
+      supervisor: Philip Fong
       thesis: "The SUDO Framework for Data Organization And Efficient Query Authorization For NoSQL Databases"
       date: 2020
     -
       name: Brent Odland
-      degree: "MA in Philosophy, supervisor: Mark Migotti"
+      degree: MA in Philosophy
+      supervisor: Mark Migotti
       thesis: "Peirce's Triadic Logic: Continuity, Modality, and L"
       link: http://hdl.handle.net/1880/112238
       date: 2020
     -
       name: Prashant Kumar
-      degree: "MSc in Computer Science, supervisor: Robin Cockett"
+      degree: MSc in Computer Science
+      supervisor: Robin Cockett
       thesis: Implementation of Message Passing Language
       date: 2018
     -
       name: Chad Mitchell Nester
-      degree: "MSc in Computer Science, supervisor: Robin Cockett"
+      degree: MSc in Computer Science
+      supervisor: Robin Cockett
       thesis: Turing Categories and Realizability
       date: 2017
     -
       name: Mohammad Jafari
-      degree: "PhD in Computer Science, supervisor: Reyhaneh Safavi-Naini"
+      degree: PhD in Computer Science
+      supervisor: Reyhaneh Safavi-Naini
       thesis: Modelling and Enforcing Purpose in Privacy Policies
       date: 2013
     -
       name: Jayalakshmi Balasubramaniam
-      degree: "MSc in Computer Science, supervisor: Philip Fong"
+      degree: MSc in Computer Science
+      supervisor: Philip Fong
       thesis: A Novel Approach to White-Box Policy Analysis
       date: 2013
     -
       name: Joseph Windsor
-      degree: "MA in Linguistics, supervisor: Darin Flynn"
+      degree: MA in Linguistics
+      supervisor: Darin Flynn
       thesis: "When Nothing Exists: The Role of Zero in the Prosodic Hierarchy"
       date: 2012
     -
       name: Cheng Xu
-      degree: "MSc in Computer Science, supervisor: Philip Fong"
+      degree: MSc in Computer Science
+      supervisor: Philip Fong
       thesis: The Specification and Compilation of Obligation Policies for Program Monitoring
       date:   2011
     -
       name: Julia Zochodne
-      degree: "BA Honours, supervisor: Nicole Wyatt"
+      degree: BA Honours
+      supervisor: Nicole Wyatt
       thesis: "What do We do with a Logic that is Formal?"
       date: 2009
     -
       name: Steven Yuen
-      degree: "MSc in Computer Science, supervisor: Lisa Higham"
+      degree: MSc in Computer Science
+      supervisor: Lisa Higham
       thesis: Formal Models and Implementations of Distributed Shared Memory
       date: 2009
     -
       name: Jennifer Runke
-      degree: "PhD in Philosophy, supervisor: Marc Ereshefsky"
+      degree: PhD in Philosophy
+      supervisor: Marc Ereshefsky
       thesis: Towards an Adequate Theory of Scientific Metaphor
       date: 2008
     -
       name: Jillian Hartman
-      degree:  "MA in Creative Writing, supervisors: Susan Rudy, Tom Wayman"
+      degree:  MA in Creative Writing
+      supervisor: "Susan Rudy, Tom Wayman"
       thesis: Scrabbalah
       date: 2005
     -
       name: Craig Pastro
-      degree: "MSc in Computer Science, supervisor: Robin Cockett"
+      degree: MSc in Computer Science
+      supervisor: Robin Cockett
       thesis: $\Sigma\Pi$-Polycategories, Linear Logic, and Process Semantics
       date: 2005
     -
       name: Min Zeng
-      degree: "MSc in Computer Science, supervisor: Robin Cockett"
+      degree: MSc in Computer Science
+      supervisor: Robin Cockett
       thesis: An Implementation of Charity
       date: 2003
     -
       name: Clement Loo
-      degree: "BA Honours, supervisor: Marc Ereshefsky"
+      degree: BA Honours
+      supervisor: Marc Ereshefsky
       thesis: The Role of Evolution in Behavior
       date: 2003 
 
@@ -1570,6 +1605,9 @@ service:
     -
       item: Calgary Peripatetic Research Group on Logic and Category Theory, Co-organizer
       date: 2001--
+    -
+      item: "Hiring Committee (Quantum Information, Department of Mathematics), Member"
+      date: 2020
     -
       item: Calgary Institute for the Humanities, Executive Council
       date: 2016--2021

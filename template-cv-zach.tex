@@ -66,7 +66,7 @@ $endfor$
 $for(appointment)$
 \subsection{$appointment.place$}
 $for(appointment.items)$
-\ind $appointment.items.item$. $if(appointment.items.enddate)$\daterange{$appointment.items.begindate$}{$appointment.items.enddate$}$else$\printdate{$appointment.items.begindate$}--$endif$.
+\ind $appointment.items.item$, $if(appointment.items.enddate)$\daterange{$appointment.items.begindate$}{$appointment.items.enddate$}$else$\printdate{$appointment.items.begindate$}--$endif$.
 
 $endfor$
 $endfor$
@@ -74,14 +74,14 @@ $endfor$
 \section{Awards}
 
 $for(award)$
-\ind $award.title$, $award.agency$, $award.date$.
+\ind $award.title$, $if(award.agency)$$award.agency$, $endif$$award.date$.
 
 $endfor$
 
 \section{Editor}
 
 $for(editor)$
-\ind \textit{\href{$editor.link$}{$editor.item$}}, $editor.role$. $if(editor.enddate)$\daterange{$editor.begindate$}{$editor.enddate$}$else$\printdate{$editor.begindate$}--$endif$.
+\ind \textit{\href{$editor.link$}{$editor.item$}}, $editor.role$, $if(editor.enddate)$\daterange{$editor.begindate$}{$editor.enddate$}$else$\printdate{$editor.begindate$}--$endif$.
 
 $endfor$
 
@@ -169,7 +169,12 @@ $endfor$
 $for(students)$
 \subsection{$students.type$}
 $for(students.students)$
-\ind $if(students.students.webpage)$\href{$students.students.webpage$}{$students.students.name$}$else$$students.students.name$$endif$ ($students.students.degree$), ``$if(students.students.link)$\href{$students.students.link$}{$students.students.thesis$}$else$$students.students.thesis$$endif$,'' $students.students.date$
+\ind
+$if(students.students.webpage)$\href{$students.students.webpage$}{$students.students.name$}$else$$students.students.name$$endif$
+($students.students.degree$$if(students.students.supervisor)$;
+supervisor: $students.students.supervisor$$endif$),
+``$if(students.students.link)$\href{$students.students.link$}{$students.students.thesis$}$else$$students.students.thesis$$endif$,''
+$students.students.date$
 
 $endfor$
 $endfor$
