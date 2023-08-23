@@ -294,13 +294,13 @@ presentation:
   title: "Semantics of First-order Logic: The Early Years"
   host: Munich Center for Mathematical Philosophy
   place: Ludwig-Maximilians-Universität, Munich
-  date: 2022-11-15
+  date: 2023-11-15
   invited: true
 - 
   title: The Pre-History of Automated Reasoning
   host:  PHILMATH Seminar
   place: Institut d'Histoire et Philosophie des Sciences et Techniques, CNRS/Université Paris 1 Panthéon-Sorbonne
-  date: 2022-04-17
+  date: 2023-04-17
   invited: true
 -
   title: The Automation of Reasoning
@@ -1378,7 +1378,7 @@ students:
   students:
     -
       name: Romain Büchi
-      degree: "Dr. phil. in Philosophy"
+      degree: "Dr. phil. in Philosophy, University of Zurich"
       thesis: Über Variablen und Entscheidbarkeit
       supervisor: Katia Saporiti
       date: 2023

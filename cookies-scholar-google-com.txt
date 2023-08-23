@@ -2,5 +2,5 @@
 # http://curl.haxx.se/rfc/cookie_spec.html
 # This is a generated file!  Do not edit.
 
-.google.com	TRUE	/	FALSE	1674275783	NID	511=V6FFo1Ia6j2vFSkUOFuwLrfgogIGk-p46-EBumUwAoGDKwC5zSH0tFr__GaB0_zWyn5L1xwzpwIwObQXdviO1rN5IX7HmUEsU_YP00amtF8Wve0YtfKj0ZA9ZvjzFye24VD_LE_94Cqjd1e11c0QkxkTPWcAWTDu9UboisjXUig
-.scholar.google.com	TRUE	/	TRUE	1721536583	GSP	LM=1658464583:S=IBZ1RwzB-VspZEle
+.scholar.google.com	TRUE	/	TRUE	1755382928	GSP	LM=1692310928:S=DRIq7Wh2aJ6G5a6z
+.google.com	TRUE	/	FALSE	1708122128	NID	511=L9IZ4WxOO0e_WtjFq9IuOLav4Dao0f1MnKGrnH3d4Dhs87OpUUNzz6QtnyZfFkmr-6W3OeKKf9UjuV0heuQ9yopLOmKAfHbqWuQ4nqwEOTekYVgvud76j30vtyxPnGsk27tWz7tQzYFElA7Lzd8c7kHmJLw3SMJkKLFl7ptdq-g
