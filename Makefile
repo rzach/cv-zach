@@ -34,9 +34,9 @@ yaml-cv.md: curriculum_vitae.yaml
 		cidss=`echo $$cids | sed 's/,/ /g'` ;\
 		cites=`./citecount $$cidss` ;\
 		echo "$$cites citations for $$cidss" ;\
-#		if [ "$$cites" -gt "0" ] ; then \
+		if [ "$$cites" -gt "0" ] ; then \
 			echo "\defscholar{$$cids}{$$cites}" >> $@ ;\
-#		fi ;\
+		fi ;\
 	done
 %.md: template-%.md yaml-cv.md zach.bib publication-list.csl
 	sed 's/-[0-9][0-9]-[0-9][0-9]//g;s/\\\\emph{\([^}]*\)}/_\1_/g;' yaml-cv.md | pandoc --template=$< -t markdown | pandoc --citeproc --bibliography=zach.bib -t markdown > $@

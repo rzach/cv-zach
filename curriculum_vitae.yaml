@@ -135,16 +135,37 @@ shortappointment:
 
 editor:
   -
-    item: Ergo
-    link: https://www.ergophiljournal.org/
-    role: Area Editor
-    begindate: 2019-00-00
-    short: true
-  -
     item: Philosophia Mathematica
     link: https://academic.oup.com/philmat
     role: Editor
     begindate: 2019-00-00
+    short: true
+  -
+    item: Stanford Encyclopedia of Philosophy
+    link: https://plato.stanford.edu/
+    role: Subject Editor, History of Logic
+    begindate: 2005-00-00
+    short: true
+  -
+    item: Journal for the History of Analytic Philosophy
+    link: https://jhaponline.org/
+    role: Founding Editor
+    begindate: 2010-00-00
+    enddate: 2020-12-01
+    short: true
+  -
+    item: The Review of Symbolic Logic
+    link: https://www.cambridge.org/core/journals/review-of-symbolic-logic
+    role: Founding Editor
+    begindate: 2007-01-01
+    enddate: 2013-12-31
+    short: true
+  -
+    item: Studia Logica
+    link: http://www.studialogica.org/
+    role: Associate Editor
+    begindate: 2006-00-00
+    enddate: 2008-00-00
     short: true
   -
     item: Open Logic Project
@@ -157,12 +178,6 @@ editor:
     role: Editor
     begindate: 2006-00-00
   -
-    item: Stanford Encyclopedia of Philosophy
-    link: https://plato.stanford.edu/
-    role: Subject Editor, History of Logic
-    begindate: 2005-00-00
-    short: true
-  -
     item: Hilbert-Bernays Project
     link: http://wirth.bplaced.net/p/hilbertbernays/
     role: Advisory Board Member
@@ -172,25 +187,6 @@ editor:
     link: http://www.phil.cmu.edu/projects/bernays/
     role: Editorial Board Member
     begindate: 2000-00-00
-  -
-    item: Journal for the History of Analytic Philosophy
-    link: https://jhaponline.org/
-    role: Founding Editor
-    begindate: 2010-00-00
-    enddate: 2020-00-00
-  -
-    item: The Review of Symbolic Logic
-    link: https://www.cambridge.org/core/journals/review-of-symbolic-logic
-    role: Founding Editor
-    begindate: 2007-01-01
-    enddate: 2013-12-31
-  -
-    item: Studia Logica
-    link: http://www.studialogica.org/
-    role: Associate Editor
-    begindate: 2006-00-00
-    enddate: 2008-00-00
-    short: true
 
 education:
   -
@@ -273,6 +269,36 @@ award:
 
 presentation:
 -
+  title: "Hilbert's program and infinity"
+  host: "Logic in Philosophy Workshop: Incompleteness and Intuition"
+  place: University of Rijeka
+  date: 2024-09-11
+  workshop: true
+-
+  title: "The Epsilon Calculus in Non-Classical Logics: Recent Results and Open Questions"
+  host: "Proof Representations: From Theory to Applications"
+  place: Schloss Dagstuhl
+  date: 2024-08-19
+  workshop: true
+-
+  title: "Tutorial on Curry-Howard II"
+  host: Calgary Peripatetic Research Group in Logic and Category Theory
+  place: University of Calgary
+  date: 2023-11-29
+  local: true
+-
+  title: "Tutorial on Curry-Howard I"
+  host: Calgary Peripatetic Research Group in Logic and Category Theory
+  place: University of Calgary
+  date: 2023-10-18
+  local: true
+-
+  title: "Hilbert's program and infinity"
+  host: "Gödel and Kant on Mathematics and Physics"
+  place: University of Tübingen
+  date: 2023-10-11
+  workshop: true
+-
   title: "The Epsilon Calculus in Non-Classical Logics: Recent Results and Open Questions"
   host: Workshop on Logic, Language, and Information WoLLIC 2023
   place: Dalhousie University, Halifax
@@ -319,7 +345,7 @@ presentation:
   host: Online Colloquium
   place: Canadian Society for the History and Philosophy of Mathematics
   date: 2022-10-28
-  invited: true
+  workshop: true
 -
   title: "Semantics of First-order Logic: The Early Years"
   host: Logic Seminar (online)
@@ -1141,12 +1167,12 @@ teaching:
   -
     title: "Advanced Topics in Logic: Modal Logic"
     number: Phil 579.02/679.02
-    date: Winter 2014, Winter 2018
+    date: Winter 2014, Winter 2018, Winter 2024
     type: grad
   -
     title: Graduate Proseminar
     number: Phil 603
-    date: Fall 2015, Fall 2016, Fall 2017, Fall/Winter 2022/23
+    date: Fall 2015, Fall 2016, Fall 2017, Fall/Winter 2022/23, Fall 2023, Fall 2024
     type: grad
   -
     title: "Advanced Topics in Logic: Proof Theory"
@@ -1287,7 +1313,7 @@ students:
       link: https://dx.doi.org/10.11575/PRISM/32353
       date: 2018
     -
-      name: Samara Burns
+      name: Sam Burns
       webpage: https://philosophy.columbia.edu/content/samara-burns
       degree: MA
       thesis: Hypersequent Calculi for Modal Logics
@@ -1410,6 +1436,12 @@ students:
   type: Committee Member
   students:
     -
+      name: Yudi Huang
+      degree: MA in Philosophy
+      supervisor: David Liebesman
+      thesis: "The Problem of Hyperintensionality: A Truthmaker Approach"
+      date: 2023
+    -
       name: Ananya Chattoraj
       degree: PhD in Philosophy
       supervisor: Ken Waters
@@ -1531,6 +1563,12 @@ service:
       item: Head's Advisory Committee, Member
       date: 2013--2014, 2015--2018, 2022--2025
     -
+      item: Committee on Diversity and Climate, Member
+      date: 2015--2018, 2023--2025
+    -
+      item: Timetable Committee, Member
+      date: 2023--2025
+    -
       item: Headship Selection Committee
       date: 2023
     -
@@ -1542,9 +1580,6 @@ service:
     -
       item: Undergraduate Program Committee, Member
       date: 2019--2021
-    -
-      item: Committee on Diversity and Climate, Member
-      date: 2015--2018
     -
       item: Field of Study Exam Standing Committee (Logic and Language), Member
       date: 2015--2018
@@ -1606,7 +1641,12 @@ service:
       item: Calgary Peripatetic Research Group on Logic and Category Theory, Co-organizer
       date: 2001--
     -
-      item: "Hiring Committee (Quantum Information, Department of Mathematics), Member"
+      item: "Department of Physics and Astronomy, Hiring Committee (High Energy Physics), Member"
+      date: 2023
+    - item: "Faculty of Graduate Studies, SSHRC Doctoral Adjudication Committee, Member"
+      date: 2021
+    -
+      item: "Department of Mathematics and Statistics, Hiring Committee (Quantum Information), Member"
       date: 2020
     -
       item: Calgary Institute for the Humanities, Executive Council
@@ -1618,11 +1658,11 @@ service:
       item: Faculty of Arts, Graduate Academic Review Committee, Vice Chair
       date: 2015--2018
     -
-      item: Faculty of Arts, Faculty Merit Committee
-      date: 2017
-    -
       item: VP Teaching and Learning, Open Educational Resources Working Group
       date: 2016--2018
+    -
+      item: Faculty of Arts, Faculty Merit Committee
+      date: 2017
     -
       item: Taylor Institute for Teaching and Learning, Advisory Board to the Academic Director
       date: 2016--2017
@@ -1675,6 +1715,9 @@ service:
   type: Professional Organizations
   gigs:
     -
+      item: Philosophy of Mathematics Association, Vice President
+      date: 2022--2025
+    -
       item: Philosophy of Mathematics Association, President
       date: 2019--2022
     -
@@ -1722,6 +1765,9 @@ service:
 -
   type: Conferences
   gigs:
+    -
+      item: Workshop on Logic, Language, and Information WoLLIC 2024, Program Committee Member
+      date: 2024
     -
       item: International Congress of Logic, Methodology and Philosophy of Science and Technology CLMPST 2023, Program Committee Member
       date: 2023
@@ -1846,20 +1892,22 @@ service:
         \\emph{Studies in History and Philosophy of Science},
         \\emph{Synthese}, \\emph{Theoretical Computer Science}"
     -
-      item: "Conferences: Indian Conference on Logic and its
-        Applications 2019; Logica 2018; Western Canadian Philosophy
-        Association 2002, 2004, 2016, 2018; Canadian Philosophical
-        Association 2003, 2006, 2008, 2017; Workshops on Computer
-        Science Logic 1994, 1995, 2002, 2017; Logic in Computer Science
-        2015; Computability in Europe 2008; Logic for Programming and
-        Automated Reasoning 1992, 2005, 2007; World Congress on
-        Universal Logic 2005; Society for Exact Philosophy 2005;
-        International Joint Conference on Automated Reasoning 2004;
-        International Symposia on Multiple Valued Logic 1994, 1998; Kurt
-        Gödel Colloquia 1993, 1997; International Conference on
-        Automated Deduction 1994, 2004; European Conference on
-        Artificial Intelligence 1994; Workshop on Tableau-based
-        Deduction, 1993, 2021"
+      item: "Conferences: Workshop on Logic, Language, and Information
+        2024; International Congress of Logic, Methodology and
+        Philosophy of Science and Technology 2023; Indian Conference
+        on Logic and its Applications 2019; Logica 2018; Western
+        Canadian Philosophy Association 2002, 2004, 2016, 2018;
+        Canadian Philosophical Association 2003, 2006, 2008, 2017;
+        Workshops on Computer Science Logic 1994, 1995, 2002, 2017;
+        Logic in Computer Science 2015; Computability in Europe 2008;
+        Logic for Programming and Automated Reasoning 1992, 2005,
+        2007; World Congress on Universal Logic 2005; Society for
+        Exact Philosophy 2005; International Joint Conference on
+        Automated Reasoning 2004; International Symposia on Multiple
+        Valued Logic 1994, 1998; Kurt Gödel Colloquia 1993, 1997;
+        International Conference on Automated Deduction 1994, 2004;
+        European Conference on Artificial Intelligence 1994; Workshop
+        on Tableau-based Deduction, 1993, 2021"
     -
       item: "Granting Agencies: Austrian Science Fund, Fonds
         Québéquois de Recherche sur la Société et Culture, Natural
@@ -1908,9 +1956,9 @@ grants:
   date: 2015
   value: CAD 43,000
 -
-  type: Annual Fellowship
-  title: Calgary Institute for the Humanities
+  type: Calgary Institute for the Humanities Annual Fellowship
   date: 2013--2014
+  value: teaching release
 -
   type: Insight Grant, Social Sciences and Humanities Research Council of Canada (SSHRC)
   title: The Collected Works of Rudolf Carnap (Phase 2)
