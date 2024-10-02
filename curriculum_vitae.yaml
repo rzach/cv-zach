@@ -1287,6 +1287,12 @@ students:
   type: Supervisor
   students:
     -
+      name: Mohamar Rios Flores
+      degree: "MSc in Pure Mathematics; co-supervisor: Kristine Bauer"
+      thesis: "Counterfactual Logic: A Modern Overview"
+      link: https://doi.org/10.11575/PRISM/42982
+      date: 2024
+    -
       name: Amirhossein Kiani
       webpage: https://www.linkedin.com/in/amirhossein-kiani/
       degree: PhD
